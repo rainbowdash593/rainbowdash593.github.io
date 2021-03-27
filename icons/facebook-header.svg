@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 26" width="25" height="26">
+	<defs>
+		<image  width="25" height="26" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAMAAAB1owf/AAAAAXNSR0IB2cksfwAAAYZQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////VecJvgAAAIJ0Uk5TAAoxebLX7vr46c+nYyMFKYbZ//zGahVGxfukJlHfwDBC4L8hIsTYvsHe/pgMgeV3NiAkdPBY2/RcSPatFqoLARkbZuJdbQQI1f2mXwPUZ93t7+ocw+P1fiUqEiyRl2G3+aAoDVdw7MKj1jrnHtEf0kQJhdPofFZk82W2a72pUBQTLv/0A9YAAAFeSURBVHicXZLpOwJRFMZP2tPCTUi2JpRIRZJQSo2lq7IlIdmzZc++/edmJnfm6v30nvf3POeec54LwEvWIFcoVWqNVteoNxhBkqmpGRGZWyytImhrR7SsHbY/0NmF6tTdI4Beez1AiHFwoK+fjgYYp2vQjdDQMICHyke8Pod/dEyDUGAcICiBiZDQfjLM+alpcEtkJgIQnY3FeTKXAKpZkoV5C8MsLHJevUSTFIaYjhTLNEmz4MiQIiuSldVsCMPaenYjIDydIyS8md8qABht2/kdIQgQktOTK8p2hSAjkiLGUS7HuKDga/MeIaX9YvogCodH6WNh9xM5ZKXZLBj85O6nJihLJM6C/6xmrV6A8wuR6DFcXtWss8I9mQzT5Fpw9ht+ytu7EkXuefOQqC0QeVT9J8oq2Q1XXQJ54mYLoueyj/pWhpdXrRu9sVB5//j8gn/yeZz2EAvfqR+S/AJJgkqTFCKlJAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Лицевой блок">
+		<g id="Над шапкой ">
+			<use id="Слой 30" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

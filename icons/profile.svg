@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAfhQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////YTqjjAAAAKh0Uk5TAAEUTZ7g/+ixXR4DCUq19Nq9r7nR78ZgD3zz46NkNBMCDitWk9iZIRib+rBINu67KpbxhAdm5Btod1TmCy/fCPjyWwaOyidJRBqkvBfq922AyOG+BUL1Yc4dmv11EKeinf6gbDhp0rOKWsvtUyWmMdnlCqU1zHFBnPyC1By2ESzwakUmsmsfdjM/7GXCFpI5MC3XDYPrxWP7+aG/24cSuEZ6fQR0rt1/88zewgAAAelJREFUeJxjYAADRiZmFlY2MGDn4OTiZkACPLx8bGz8AoIcQsIiomxsYuISCDkmSSk2aRlZOXluBUUlZRVVNjY1dZichiablraOAlytrpoem74BhK1oyGZkrIhsi4mpGZugOYjFbcEmZcnIgAqsrNnUbIC0rR2bij0DOrBwcHRiYHB2YXPlgoq4uXt4Qpk2XmzePgxuvn7+EL5PQKB1ULBsCIQXqhcWzhDOFhEJ5slHRYPCQDQGYn9sHFs8Q0JiEkRpshYkhPRSIPxUtjQGV78YSECks0FBBkTSwzGMwUw0E8xWyoJJckAk5ezYGLJ9c8DsXDGYZB5EMr+AjaEw2wnMLiqGykVbQiRLgDpLHcogHFlHaJTlQ/jlog4MSdEVELczaSeC5CqroDFgwVbNYMrmWgNiMzrb1jokJoYlSEBCoS6erZihviGsESgl31Rl1SzZItTa1t7eUQSU7OzS6mawN2Tr6S3ilclm0+rrnzCxSZuNbVJGB/dkTTZBoIn5vpVqU6aC3dI1LdAPzEib3h3mNx2oX6FsBhsGmCnKNssGHMQymJJsbLNzod5lx5SbAw1+hqK5Wuhy7OLwNDGve74espSvF1JaZGCIXLBwfuFMcNCyT1vUKY+WohaXLFmq6tu1TH95kzNMDADVMmBq1cObtwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Лицевой блок">
+		<g id="Над шапкой ">
+			<use id="иконка" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #fe9a3f } 
+		.txt1 { font-size: 18px;line-height: 60px;fill: #ffffff;font-family: "Font Awesome";text-anchor: middle } 
+	</style>
+	<g id="contact">
+		<g id="contact options">
+			<g id="address">
+				<g id="icon">
+					<path id="bg" class="shp0" d="M24 0C37.25 0 48 10.74 48 24C48 37.25 37.25 48 24 48C10.75 48 0 37.25 0 24C0 10.74 10.75 0 24 0Z" />
+					<text id="" style="transform: matrix(1,0,0,1,24,31)" >
+						<tspan x="0" y="0" class="txt1"></tspan>
+					</text>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

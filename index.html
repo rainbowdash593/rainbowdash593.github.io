@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/6e11ea2b63.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="header flex items-center justify-between text-base lg:text-xl">
+        <div class="header-left">
+            <div class="header-auth flex items-center">
+                <div class="header-auth__logo">
+                    <img src="./icons/profile.svg" alt="">
+                </div>
+                <div class="ml-3">Вход и регистрация</div>
+            </div>
+        </div>
+        <div class="header-right flex">
+            <div class="header-social hidden lg:flex space-x-4 items-center">
+                <a class="header-social__link">
+                    <img src="./icons/telegram-header.svg">
+                </a>
+                <a class="header-social__link">
+                    <img src="./icons/facebook-header.svg">
+                </a>
+                <a class="header-social__link">
+                    <img src="./icons/instagram-header.svg">
+                </a>
+            </div>
+            <div class="header-language flex space-x-3 ml-20">
+                <div class="language language--active">RU</div>
+                <div class="language">EN</div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="layout">
+    <div class="main-section py-28">
+
+        <div class="section-layout">
+            <div class="nav grid grid-cols-8 py-5">
+                <div class="nav-logo col-span-2">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="col-span-6 nav-items flex items-center flex-wrap justify-end space-x-8 text-xl font-medium">
+                    <a class="nav-items__link nav-items__link--active">Главная</a>
+                    <a class="nav-items__link">Программа</a>
+                    <a class="nav-items__link">Галлерея</a>
+                    <a class="nav-items__link">Партнерам</a>
+                    <a class="nav-items__link">Награды</a>
+                    <a class="nav-items__link">FAQ</a>
+                    <a class="nav-items__link">Контакты</a>
+                </div>
+            </div>
+<!--            <div class="nav flex items-center justify-between py-5">-->
+<!--                <div class="nav-logo">-->
+<!--                    <img src="./images/logo.png" alt="">-->
+<!--                </div>-->
+<!--                <div class="nav-items flex items-center space-x-8 text-xl font-medium">-->
+<!--                    <a class="nav-items__link nav-items__link&#45;&#45;active">Главная</a>-->
+<!--                    <a class="nav-items__link">Программа</a>-->
+<!--                    <a class="nav-items__link">Галлерея</a>-->
+<!--                    <a class="nav-items__link">Партнерам</a>-->
+<!--                    <a class="nav-items__link">Награды</a>-->
+<!--                    <a class="nav-items__link">FAQ</a>-->
+<!--                    <a class="nav-items__link">Контакты</a>-->
+<!--                </div>-->
+<!--            </div>-->
+            <div class="event-cta grid grid-cols-2 my-20">
+                <div>
+                    <div class="tagline space-y-8">
+                        <h1 class="font-bold text-7xl">
+                            Everybody <br>
+                            welcome <br>
+                            to webcam!
+                        </h1>
+                        <h2 class="text-3xl">
+                            Станьте частью мощного события - <br>
+                            присоединяйтесь к саммиту 2021!
+                        </h2>
+                    </div>
+                    <div class="cta-button mt-10">
+                        <button class="font-bold text-xl px-16 py-5 rounded-md shadow-lg">
+                            Регистрация
+                        </button>
+                    </div>
+                </div>
+                <div class="ml-20 -mr-16">
+                    <img src="./images/logo-large.png" alt="">
+                </div>
+            </div>
+            <div class="event-info grid grid-cols-4 space-x-20">
+                <div class="event-info__place font-semibold text-2xl">
+                    Август 2021 <br>
+                    Санкт-Петербург
+                </div>
+                <div class="col-span-3 event-info__text align-right">
+                    <h3 class="font-medium text-2xl">
+                        Webcam Training Forum - это первое в России бизнес-мероприятие
+                        для представителей вебкам-индустрии.
+                        Здесь мы обмениваемся бесценной информацией,
+                        слушаем известных спикеров и круто отдыхаем
+                        после конференций!
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="floating-bg-1"></div>
+    </div>
+    <div class="reasons-section py-28">
+        <div class="section-layout ">
+            <div class="grid grid-cols-2 grid-rows-2 gap-10 mt-20">
+                <div class="row-span-2 col-span-1">
+                    <div class="reason-text">
+                        <div class="reason-text__header space-y-4">
+                            <p class="tracking-widest uppercase color-yellow text-2xl">Причины</p>
+                            <h3 class="text-6xl font-semibold">
+                                Почему нужно <br>
+                                ехать на WTF-2021?
+                            </h3>
+                            <div class="reason-text__quote">
+                                <img src="./images/main/quote.png" alt="">
+                            </div>
+                        </div>
+                        <div class="reason_text__content text-xl pt-20">
+                            <p>- это самое масштабное мероприятие в индустрии вебкама в России;</p>
+                            <p>- саммит будет полезен всем представителям индустрии для взрослых, сотрудникам рекламной и развлекательной сфер;</p>
+                            <p>- также рекомендуем посетить мероприятие тем, кто работает в технической индустрии и сфере косметологии, медицины;</p>
+                            <p>- на саммите вы сможете заявить о себе и рассказать о своей деятельности представителям разных сфер бизнеса;</p>
+                            <p>- на саммите проходят уникальные бизнес-коворкинги и лекции, где заслуженные спикеры разных сфер бизнеса делятся своим опытом;</p>
+                            <p>- в ходе мероприятия вы сможете завести интересные и полезные знакомства с представителями различных сфер со всего мира!</p>
+                            <p>- и, конечно же, мощно зажечь на тусовках после информационной части. На таких безбашенных вечеринках вы еще не бывали!</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="reason-image float-right">
+                        <img class="w-96 " src="./images/main/asset-2-1.png" alt="">
+                    </div>
+
+                </div>
+                <div>
+                    <div class="reason-image float-right">
+                        <img class="w-96" src="./images/main/asset-2-2.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="floating-bg-2"></div>
+    </div>
+    <div class="facts-section py-28">
+        <div class="section-layout">
+            <div class="facts-header text-center">
+                <p class="tracking-widest uppercase color-primary--light text-2xl">Немного фактов</p>
+                <h3 class="text-6xl font-semibold leading-relaxed">
+                    Кому обязательно надо <br>
+                    ехать на саммит?
+                </h3>
+            </div>
+            <div class="facts-cards flex flex-nowrap space-x-20 mt-20">
+                <div class="fact-card text-center w-72 h-96 flex-none border-4 border-primary rounded-xl space-y-5 p-4">
+                    <div class="fact-card__number font-semibold text-7xl mt-10 color-primary">
+                        1
+                    </div>
+                    <div class="fact-card__title font-semibold text-xl ">
+                        Моделям, администраторам
+                    </div>
+                    <div class="fact-card__text text-sm">
+                        и всем тем, кто отвечает за красоту и развлечения на экране. Вы сможете прокачать свои навыки работы с мемберами, что поможет увеличить доход!
+                    </div>
+                </div>
+
+                <div class="fact-card text-center w-72 h-96 flex-none border-4 border-pink rounded-xl space-y-5 p-4">
+                    <div class="fact-card__number font-semibold text-7xl mt-10 color-pink">
+                        2
+                    </div>
+                    <div class="fact-card__title font-semibold text-xl ">
+                        Основателям и владельцам студий
+                    </div>
+                    <div class="fact-card__text text-sm">
+                        Вы узнаете, как улучшить работу студии, привлечь новых ярких моделей, а также сможете найти партнеров.
+                    </div>
+                </div>
+
+                <div class="fact-card text-center w-72 h-96 flex-none border-4 border-blue rounded-xl space-y-5 p-4">
+                    <div class="fact-card__number font-semibold text-7xl mt-10 color-blue">
+                        3
+                    </div>
+                    <div class="fact-card__title font-semibold text-xl ">
+                        Спонсорам и партнерам
+                    </div>
+                    <div class="fact-card__text text-sm">
+                        Вы найдете здесь новые пути выгодного сотрудничества, чтобы создать крутой коллаб!
+                    </div>
+                </div>
+
+                <div class="fact-card text-center w-72 h-96 flex-none border-4 border-yellow rounded-xl space-y-5 p-4">
+                    <div class="fact-card__number font-semibold text-7xl mt-10 color-yellow">
+                        4
+                    </div>
+                    <div class="fact-card__title font-semibold text-xl ">
+                        Тусовщикам
+                    </div>
+                    <div class="fact-card__text text-sm">
+                        которые обожают незабываемые масштабные вечеринки. Таких тусовок, как на саммите, вы еще точно не встречали!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider w-1/2"></div>
+    <div class="about-section py-28">
+        <div class="section-layout">
+            <div class="grid grid-cols-2 gap-10">
+                <div class="about-text">
+                    <h3 class="font-semibold text-6xl color-black">
+                        Блок для СЕО <br> текстов
+                    </h3>
+                    <p class="text-xl color-black mt-10">
+                        Это уникальное и масштабное мероприятие в индустрии развлечений в России
+                        на саммите проходят уникальные бизнес коворкинги и лекции, где легендарные
+                        спикеры делятся своим опытом.
+                    </p>
+                    <div class="mt-20">
+                        <button class="bg-pink font-bold text-xl px-14 py-4 rounded-md shadow-2xl uppercase color-white">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./images/main/asset-4-1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="floating-bg-4"></div>
+    </div>
+    <div class="divider w-1/2"></div>
+    <div class="partners-section py-20">
+        <div class="section-layout">
+            <div>
+                <div class="partners-header text-center space-y-4">
+                    <p class="tracking-widest uppercase color-primary--light text-2xl">Нам доверяют</p>
+                    <h3 class="text-6xl font-semibold">
+                        Парнеры
+                    </h3>
+                </div>
+            </div>
+            <div class="partners mt-28 space-y-28">
+                <div class="partner-block platinum text-center">
+                    <div class="partner-block__header mx-auto w-2/3">
+                        <div class="partner-block__title text-4xl font-black uppercase">Platinum</div>
+                        <div class="partner-block__fill"></div>
+                    </div>
+                    <div class="partner-logos flex justify-center space-x-12 mt-8">
+                        <div class="partner-logo">
+                            <img src="./images/partners/castalia.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/fs.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/terpon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partner-block registration text-center">
+                    <div class="partner-block__header mx-auto w-2/3">
+                        <div class="partner-block__title text-4xl font-bold uppercase">Registration</div>
+                        <div class="partner-block__fill"></div>
+                    </div>
+                    <div class="partner-logos flex justify-center space-x-8 mt-8 px-12">
+                        <div class="partner-logo">
+                            <img src="./images/partners/victory.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/night.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/flirt.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/models.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partner-block gold text-center">
+                    <div class="partner-block__header mx-auto w-2/3">
+                        <div class="partner-block__title text-4xl font-semibold uppercase">Gold</div>
+                        <div class="partner-block__fill"></div>
+                    </div>
+                    <div class="partner-logos flex justify-center space-x-12 mt-8 px-16">
+                        <div class="partner-logo">
+                            <img src="./images/partners/castalia.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/fs.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/terpon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partner-block silver text-center">
+                    <div class="partner-block__header mx-auto w-2/3">
+                        <div class="partner-block__title text-4xl uppercase">Silver</div>
+                        <div class="partner-block__fill"></div>
+                    </div>
+                    <div class="partner-logos flex justify-center space-x-12 mt-8 px-20">
+                        <div class="partner-logo">
+                            <img src="./images/partners/castalia.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/fs.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/terpon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partner-block bronze text-center">
+                    <div class="partner-block__header mx-auto w-2/3">
+                        <div class="partner-block__title text-4xl font-extralight uppercase">Bronze</div>
+                        <div class="partner-block__fill"></div>
+                    </div>
+                    <div class="partner-logos flex justify-center space-x-12 mt-8 px-24">
+                        <div class="partner-logo">
+                            <img src="./images/partners/victory.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/night.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/flirt.png" alt="">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="./images/partners/models.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts-section">
+        <div class="section-layout">
+            <div>
+                <div class="contacts-header text-center space-y-4">
+                    <p class="tracking-widest uppercase color-primary--light text-2xl">Контакты</p>
+                    <h3 class="text-6xl font-semibold">
+                        Мы всегда на связи
+                    </h3>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-32 py-32 " >
+                <div class="contact-form">
+                    <div class="contact-form__header">
+                        <h4 class="font-semibold text-3xl">
+                            Написать нам:
+                        </h4>
+                    </div>
+                    <div class="mt-20 space-y-8">
+                        <div>
+                            <input class="h-14 w-full shadow-2xl px-6 rounded-lg" type="text" placeholder="Email">
+                        </div>
+                        <div>
+                            <textarea rows="6" class="w-full shadow-2xl p-6 rounded-lg" type="text" placeholder="Сообщение"></textarea>
+                        </div>
+                        <div>
+                            <button class="bg-grey font-semibold text-xl px-14 py-4 rounded-md shadow-2xl  color-white">
+                                Отправить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-block flex content-end">
+                    <div class="flex flex-col justify-end pl-20">
+                        <div>
+                            <p class="text-lg">
+                                И не забудьте присоединиться к нам в социальных сетях. <br>
+                                Там интересно, весело и круто!
+                            </p>
+                        </div>
+                        <div class="mt-10 space-y-6">
+                            <div class="contact-item flex space-x-4">
+                                <div class="contact-item__icon">
+                                    <img src="./icons/contact-phone.svg" alt="">
+                                </div>
+                                <div class="flex flex-col">
+                                    <div class="contact-item__title font-semibold">
+                                        Телефон
+                                    </div>
+                                    <div class="contact-item__contact">
+                                        +7 (963) 064-11-06
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-item  flex space-x-4">
+                                <div class="contact-item__icon">
+                                    <img src="./icons/contact-email.svg" alt="">
+                                </div>
+                                <div class="flex flex-col">
+                                    <div class="contact-item__title font-semibold">
+                                        E-mail
+                                    </div>
+                                    <div class="contact-item__contact">
+                                        wtf@mail.com
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-item  flex space-x-4">
+                                <div class="contact-item__icon">
+                                    <img src="./icons/contact-tg.svg" alt="">
+                                </div>
+                                <div class="flex flex-col">
+                                    <div class="contact-item__title font-semibold">
+                                        Telegram
+                                    </div>
+                                    <div class="contact-item__contact">
+                                        @wtf
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="section-layout">
+            <div class="py-28">
+                <div class="grid grid-cols-6 gap-32">
+                    <div class="col-span-2 space-y-10">
+                        <div class="footer-logo">
+                            <img src="./images/footer-logo.png" alt="">
+                        </div>
+                        <div class="color-grey--darken">
+                            Подписывайтесь на нашу рассылку, чтобы не пропускать важную информацию о саммите WTF-2021. Спамить не будем, обещаем!
+                        </div>
+                        <div>
+                            <input class="h-14 w-full shadow-2xl px-6 rounded-lg" type="text" placeholder="Введите ваш email">
+                        </div>
+                    </div>
+                    <div class="col-span-4">
+                        <div class="footer-nav grid grid-cols-3">
+                            <div class="footer-nav__item color-white">
+                                <div class="font-semibold text-2xl">
+                                    Главная
+                                </div>
+                                <div class="mt-12 space-y-2 color-grey--darken">
+                                    <div>
+                                        <a href="">Программа</a>
+                                    </div>
+                                    <div>
+                                        <a href="">Галерея</a>
+                                    </div>
+                                    <div>
+                                        <a href="">Партнерам</a>
+                                    </div>
+                                    <div>
+                                        <a href="">Награды</a>
+                                    </div>
+                                    <div>
+                                        <a href="">FAQ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-nav__item color-white">
+                                <div class="font-semibold text-2xl">
+                                    Партнерам
+                                </div>
+                                <div class="mt-12 space-y-2 color-grey--darken">
+                                    <div>
+                                        <a href="">Условия</a>
+                                    </div>
+                                    <div>
+                                        <a href="">Презентация</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-nav__item color-white">
+                                <div class="font-semibold text-2xl">
+                                    Контакты
+                                </div>
+                                <div class="mt-12 space-y-2 color-grey--darken">
+                                    <div>
+                                        <a href="" class="">
+                                            <i class="fas fa-map-marker-alt pr-4"></i>
+                                            22/1 Ижевск <br>
+                                            <span class="pl-8">
+                                                Место под юр. адрес.
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <i class="far fa-envelope pr-4"></i>
+                                            wtf@gmail.com
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-phone-alt pr-4"></i>
+                                            +7 (963) 064-11-06
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between mt-32">
+                    <div class="footer-social">
+                        <div class="flex space-x-5">
+                            <p class="color-white font-semibold">Подпишись</p>
+                            <div>
+                                <i class="fab fa-facebook-f" style="color: #3b5998"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-twitter" style="color: #1da1f2"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-youtube" style="color: #ff1e00"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-instagram" style="color: #dd4b39"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer-copyright color-grey--darken">
+                        All rights reserved  © WTF 2021
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
